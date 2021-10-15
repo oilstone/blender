@@ -1,6 +1,6 @@
 {
 	"name": "@oilstone/blender",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"main": "dist/blender.js",
 	"devDependencies": {
 		"clean-webpack-plugin": "^3.0.0",
