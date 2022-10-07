@@ -1,13 +1,14 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/blender.js',
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'blender.js',
         library: 'blender',
         libraryTarget: 'umd',
-        publicPath: '/'
+        publicPath: '/',
+        globalObject: 'this',
     },
     devServer: {
         contentBase: './dist',
